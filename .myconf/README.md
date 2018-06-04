@@ -1,1 +1,0 @@
-# fredrikhagland's dotfiles
