@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/fredrik/.oh-my-zsh
 
+# Path to Anaconda installation.
+export PATH="/Users/fredrik/anaconda3/bin:$PATH"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -102,3 +105,4 @@ alias config='/usr/bin/git --git-dir=/Users/fredrik/.cfg/ --work-tree=/Users/fre
 alias config='/usr/bin/git --git-dir=/Users/fredrik/.myconf/ --work-tree=/Users/fredrik'
 alias config='/usr*/bin/git --git-dir=/Users/fredrik/.myconf/ --work-tree=/Users/fredrik'
 alias config='/usr/bin/git --git-dir=/Users/fredrik/.myconf/ --work-tree=/Users/fredrik'
+alias notebook='jupyter notebook'
